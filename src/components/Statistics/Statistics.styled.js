@@ -4,10 +4,9 @@ export const StatSection = styled.section`
   border: ${props => props.theme.borders.heading};
   border-radius: ${props => props.theme.radii.heading};
   box-shadow: ${props => props.theme.shadows.boxShadow};
-  width: 500px;
   text-align: center;
   justify-content: center;
-  font-size: ${props => props.theme.fontSizes[6]}px;
+  font-size: ${props => props.theme.fontSizes[5]}px;
   margin-top: ${props => props.theme.space[3]}px;
   margin-bottom: ${props => props.theme.space[3]}px;
   width: 600px;
@@ -17,7 +16,7 @@ export const StatList = styled.ul`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: ${props => props.theme.space[0]}px;
+  padding: ${props => props.theme.space[1]}px;
 `;
 
 const getRandom = () => {

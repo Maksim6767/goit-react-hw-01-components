@@ -8,6 +8,7 @@ export const FriendListStyle = styled.ul`
 
 export const FriendItemStyle = styled.li`
   display: flex;
+  align-items: center;
   justify-content: space-around;
   border: ${props => props.theme.borders.heading};
   margin-top: ${props => props.theme.space[3]}px;
@@ -27,10 +28,9 @@ export const FriendTextName = styled.p`
 export const FriendIsOnline = styled.span`
   width: 40px;
   height: 40px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  justify-content: center;
+  margin-top: ${props => props.theme.space[5]}px;
+  margin-bottom: ${props => props.theme.space[5]}px;
   border: 1px solid black;
-  border-radius: 50%;
+  border-radius: ${props => props.theme.radii.heading};
   background-color: ${props => (props.isOnline ? 'green' : 'red')};
 `;

@@ -9,7 +9,7 @@ export default function FriendListItem({ avatar, name, isOnline, id }) {
   return (
     <FriendItemStyle key={id}>
       <FriendIsOnline isOnline={isOnline}>{isOnline}</FriendIsOnline>
-      <img src={avatar} alt="User avatar" width="100" />
+      <img src={avatar} alt="User avatar" width="64" height="64" />
       <FriendTextName>{name}</FriendTextName>
     </FriendItemStyle>
   );

@@ -4,7 +4,7 @@ export const ProfileWrap = styled.div`
   border: ${props => props.theme.borders.heading};
   border-radius: ${props => props.theme.radii.heading};
   box-shadow: ${props => props.theme.shadows.boxShadow};
-  width: 600px;
+  height: 800px;
 `;
 
 export const ProfileNameWrap = styled.div`
@@ -41,7 +41,7 @@ export const ProfileItems = styled.li`
   align-items: center;
   font-family: ${props => props.theme.fonts.body};
   margin-top: ${props => props.theme.space[3]}px;
-  margin-bottom: ${props => props.theme.space[3]}px;
+  margin-bottom: ${props => props.theme.space[2]}px;
 `;
 
 export const StatName = styled.span`

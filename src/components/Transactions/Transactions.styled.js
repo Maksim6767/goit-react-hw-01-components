@@ -9,7 +9,7 @@ export const TransactionWrap = styled.table`
   font-family: ${props => props.theme.fonts.body};
   font-weight: ${props => props.theme.fontWeight.body};
   color: ${props => props.theme.colors.primary};
-  font-size: ${props => props.theme.fontSizes[5]}px;
+  font-size: ${props => props.theme.fontSizes[4]}px;
   & tr:nth-child(2n) {
     background-color: ${props => props.theme.colors.text};
   }
